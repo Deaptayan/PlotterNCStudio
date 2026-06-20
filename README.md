@@ -62,7 +62,7 @@ Export
 
 ## Try it Now
 
-**PlotterNC Studio Demo:** https://deaptayan.github.io/PlotterNC Studio/
+**PlotterNC Studio Demo:** https://deaptayan.github.io/PlotterNCStudio/
 
 ---
 
