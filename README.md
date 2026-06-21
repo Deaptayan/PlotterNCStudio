@@ -309,6 +309,14 @@ Contributions, bug reports, feature requests, and feedback are welcome.
 
 ---
 
+## License
+
+This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0).
+
+If you distribute modified versions of PlotterNC Studio or host a modified version as a network service, you must make the corresponding source code available under the same license.
+
+See the LICENSE file for details.
+
 ## Author
 
 **Deaptayan Bondopadhay**
