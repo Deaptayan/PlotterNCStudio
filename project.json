@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 2,
+  "minimumSchemaVersion": 2,
+
+  "name": "PlotterNC Studio",
+  "slug": "plotterncstudio",
+
+  "projectType": "Software",
+  "category": "Web Application",
+  "subcategory": "Toolpath Generation",
+
+  "ecosystem": "PlotterNC",
+
+  "featured": false,
+  "websiteVisibility": true,
+
+  "developmentStage": "Production",
+  "status": "Active",
+
+  "priority": 0,
+
+  "started": "",
+  "released": "",
+
+  "tagline": "Open-source plotting and CAM software for PlotterNC-powered machines.",
+
+  "shortDescription": "A modern, browser-based CAM application for pen plotters and other 2D CNC machines. Import SVG artwork, generate optimized toolpaths, simulate machine motion, and export machine-ready G-code directly from your browser.",
+
+  "longDescription": "PlotterNC Studio is an open-source, browser-based CAM (Computer-Aided Manufacturing) application built for pen plotters and other PlotterNC-powered 2D CNC machines. It provides a full SVG-to-G-code workflow: users import vector artwork, the app parses and samples the geometry, optimizes toolpaths using nearest-neighbor path optimization, simulates the resulting machine motion, and exports production-ready G-code. The interface includes object transform tools (move, resize, scale, mirror, fit-to-bed), multiple fill modes (outline-only and exact-as-SVG with adjustable hatch spacing), bed and machine configuration with custom and preset bed sizes, out-of-bounds protection, undo/redo support, and a live toolpath preview with playback controls.",
+
+  "heroImage": "src/image-1.png",
+  "logo": "",
+  "icon": "",
+  "brandColor": "",
+
+  "documentation": "README.md",
+  "video": "",
+
+  "buttons": [
+    {
+      "text": "Try it Now",
+      "icon": "external-link",
+      "url": "https://plotternc.deaptayan.in",
+      "primary": true
+    },
+    {
+      "type": "github",
+      "text": "View Source",
+      "primary": false
+    }
+  ],
+
+  "liveDemos": [
+    {
+      "name": "Production",
+      "url": "https://plotternc.deaptayan.in"
+    }
+  ],
+
+  "downloads": [],
+
+  "gallery": [
+    "src/image-1.png",
+    "src/image.png"
+  ],
+
+  "technologies": [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "SVG Processing",
+    "Toolpath Generation",
+    "G-code Generation",
+    "GitHub Pages"
+  ],
+
+  "languages": [
+    "JavaScript",
+    "CSS",
+    "HTML"
+  ],
+
+  "frameworks": [],
+
+  "hardware": [
+    "PlotterNC",
+    "Pen Plotters",
+    "2D CNC Machines"
+  ],
+
+  "software": [],
+
+  "platforms": [
+    "Web Browser"
+  ],
+
+  "dependencies": [],
+
+  "requirements": [
+    "Modern web browser"
+  ],
+
+  "features": [
+    "SVG → G-code workflow",
+    "Browser-based operation",
+    "Interactive workspace",
+    "Toolpath optimization",
+    "Toolpath simulation",
+    "Undo / Redo support",
+    "Exact SVG fill mode",
+    "Out-of-bounds protection",
+    "GitHub Pages deployment",
+    "SVG Import (drag & drop, multi-subpath, layer-aware)",
+    "Native SVG size detection and restore",
+    "Outline-only and exact-as-SVG fill modes with adjustable hatch spacing and sample quality",
+    "Object transform tools (move, resize, scale X/Y, mirror, center/fit to bed)",
+    "Multi-unit support (mm / cm / in / px)",
+    "Bed presets (200x200, 300x300, 500x500) and custom bed sizes",
+    "Origin selection (top-left, bottom-left, center)",
+    "Out-of-bounds detection with warning banner and invalid slice protection",
+    "Nearest-neighbor toolpath optimization",
+    "Feedrate and travel speed configuration",
+    "Custom pen up/down commands",
+    "Syntax-highlighted G-code viewer and export",
+    "Toolpath scrubbing and playback controls (play, pause, rewind, jump to end)",
+    "Draw path, travel path, and pen event visualization",
+    "Live tool position tracking",
+    "Modern dark theme UI with file, machine, G-code, and layers panels"
+  ],
+
+  "futureFeatures": [
+    "A4 / A3 / A5 and additional standard paper presets",
+    "Machine profiles and profile manager",
+    "Estimated plot time and draw/travel distance statistics",
+    "Multi-object selection and grouping",
+    "Direct PlotterNC upload and WiFi connection",
+    "Job queue system",
+    "Workspace improvements",
+    "PDF, DXF, PNG, and JPG import",
+    "Automatic image vectorization",
+    "Layer operations and object tree improvements",
+    "Path editing tools and node editing",
+    "Boolean operations",
+    "Live PlotterNC monitoring and real-time job control",
+    "Pause / resume from browser",
+    "Laser engraver support",
+    "Vinyl cutter support",
+    "Plugin system",
+    "Multi-machine management",
+    "Cloud profile sync",
+    "Mobile companion app"
+  ],
+
+  "tags": [
+    "arduino",
+    "embedded",
+    "firmware",
+    "esp32",
+    "plotter",
+    "cnc",
+    "gcode",
+    "slicer",
+    "pen-plotter",
+    "plotternc",
+    "plotterncstudio"
+  ],
+
+  "difficulty": "Intermediate",
+
+  "completion": 60,
+
+  "maintainers": [
+    "Deaptayan Bondopadhay"
+  ],
+
+  "contributors": [],
+
+  "relatedProjects": [
+    "PlotterNC"
+  ],
+
+  "parentProject": "",
+
+  "children": [],
+
+  "support": {
+    "issues": true,
+    "discussions": true,
+    "sponsor": ""
+  },
+
+  "social": {
+    "youtube": "",
+    "linkedin": "https://linkedin.deaptayan.in",
+    "discord": "",
+    "twitter": ""
+  },
+
+  "seo": {
+    "title": "PlotterNC Studio - Open-Source CAM Software for Pen Plotters",
+    "description": "PlotterNC Studio is an open-source, browser-based CAM application for pen plotters and PlotterNC-powered machines. Import SVG, generate optimized toolpaths, simulate, and export G-code.",
+    "keywords": [
+      "plotterncstudio",
+      "plotternc",
+      "pen plotter",
+      "cnc",
+      "gcode",
+      "slicer",
+      "cam software",
+      "svg to gcode",
+      "esp32",
+      "arduino",
+      "open source cam"
+    ]
+  }
+}
